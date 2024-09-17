@@ -104,7 +104,7 @@ const FileUpload = () => {
       </div>
       <form onSubmit={handleSubmit} className="w-screen max-w-6xl p-8">
         {/* Personal Details */}
-        <h2 className="text-2xl mb-6  text-black">Participant's Details</h2>
+        <h2 className="text-2xl mb-6  text-black">Participant&#39;s Details</h2>
 
         <div className="flex flex-col space-y-6">
           {/* First Name and Last Name */}
@@ -373,7 +373,7 @@ const FileUpload = () => {
           </div>
 
           {/* Participant's Nominee/Guardian Details */}
-          <h3 className="text-xl mt-6 mb-2 font-semibold text-black">Participant's Nominee/Guardian Details</h3>
+          <h3 className="text-xl mt-6 mb-2 font-semibold text-black">Participant&#39;s Nominee/Guardian Details</h3>
           <textarea
             id="guardianDetails"
             placeholder="If applicable, provide details for Participant's nominee/representative. Include name, email, phone, and relation."
@@ -526,7 +526,7 @@ Explanat
           />
 
           {/* Referrer's Details */}
-          <h3 className="text-xl mt-6 mb-2 font-semibold text-black">Referrer's Details</h3>
+          <h3 className="text-xl mt-6 mb-2 font-semibold text-black">Referrer&#39;s Details</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label htmlFor="referrerFirstName" className="block text-sm text-black">
