@@ -1,6 +1,6 @@
-"use client";
+
 import React from "react";
-import { Widget } from "@typeform/embed-react";
+
 import Head from "next/head";
 import ContactForm from "@/components/ContactForm";
 import { Metadata } from "next";
