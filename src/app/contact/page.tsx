@@ -1,14 +1,10 @@
 
+'use-client'
 import React from "react";
 
 import Head from "next/head";
 import ContactForm from "@/components/ContactForm";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Contact",
-  description: "For any enquiries, please feel free to reach out here.",
-};
 
 export default function WorkWithUs() {
   return (

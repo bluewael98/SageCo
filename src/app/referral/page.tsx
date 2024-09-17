@@ -1,12 +1,8 @@
 
+'use-client'
 import React from "react";
 import FileUpload from "../../components/formupload";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Referral",
-  description: "Need support? Feel free to reach out.",
-};
 
 export default function WorkWithUs() {
   return (
