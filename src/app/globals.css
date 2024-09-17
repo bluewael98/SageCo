@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: 'Minerva Modern Bold';
-  src: url('/font/MinervaModern\ Bold.woff') format('woff');
+  src: url('/font/minervabold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Minerva Modern Italic';
-  src: url('/font/MinervaModern\ Italic.woff') format('woff');
+  src: url('/font/minervaitalic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
