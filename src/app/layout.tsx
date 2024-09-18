@@ -2,7 +2,6 @@ import './globals.css';
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Referral from '@/components/Refferal';
 
 
 
@@ -17,7 +16,7 @@ export default function RootLayout({
       <body >
         <Navbar />
         {children}
-        <Referral />
+
         <Footer />
       </body>
     </html>

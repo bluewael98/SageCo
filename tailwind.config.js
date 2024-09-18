@@ -28,7 +28,7 @@ module.exports = {
       },
       colors: {
         primary: "#8ba171",
-        secondary: "#b8bc7f",
+        secondary: "#dbe8d7",
         lavender: "#E6E6FA",
         alt: "#6A2875",
         alt2: "#A8A9AE",

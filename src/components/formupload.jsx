@@ -95,7 +95,7 @@ const FileUpload = () => {
     <section
       id="upload"
       className="flex justify-center items-center flex-col text-sm"
-      style={{ backgroundColor: '#8ba171', fontFamily: 'Minerva Modern Bold, sans-serif' }}
+      style={{ backgroundColor: '#8ba171', fontFamily: 'Minerva Modern Italic, sans-serif' }}
    
     >
       <div className='flex justify-center items-center flex-col'>

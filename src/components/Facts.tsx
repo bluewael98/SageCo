@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Facts = () => {
   return (
-    <div className="relative bg-secondary py-[200px] clip-top" style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }}>
+    <div className="relative bg-secondary py-[200px] clip-top" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between ">
         <img
           src="bg2.jpg"
@@ -13,7 +13,7 @@ const Facts = () => {
         {/* Values Section */}
         <div className="w-full md:w-1/2 text-center text-white">
           <h2 className="text-4xl font-semibold mb-8" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>VALUES</h2>
-          <ul className="space-y-4 text-2xl">
+          <ul className="space-y-4 text-3xl">
             <li>TRUST</li>
             <li>RECIPROCITY</li>
             <li>UNDERSTANDING</li>
@@ -23,7 +23,7 @@ const Facts = () => {
         </div>
 
         {/* Vision Section */}
-        <div className="w-full md:w-1/2 mt-12 md:mt-0 bg-white shadow-lg rounded-lg p-8 text-center">
+        <div className="w-full md:w-1/2 mt-12 md:mt-0 bg-white shadow-lg rounded-[25px] p-8 text-center">
           <h2 className="text-4xl font-semibold text-[#6d7249] mb-6" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>VISION</h2>
           <p className="text-lg text-gray-600">
             Our aim is to empower others and focus on their strengths. We want

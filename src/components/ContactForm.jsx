@@ -34,17 +34,17 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row justify-center items-start w-screen max-w-6xl p-8 bg-primary" style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }}>
+    <section className="flex flex-col md:flex-row justify-center items-start w-screen max-w-6xl p-8 bg-primary" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
       {/* Left Section with Static Text */}
-      <div className="w-full md:w-1/2 p-4 text-black">
-        <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>ENQUIRIES</h2>
-        <p>
-          For any enquiries, please feel free to reach out here. If you are interested in receiving Support Coordination or Psychosocial Recovery Coach Supports, you can use the Refer Now button to complete a referral form.
+      <div className="w-full md:w-1/2 p-4 text-black md:mr-4">
+        <h2 className="text-3xl font-bold mb-4 " style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>ENQUIRIES</h2>
+        <p className='text-justify'>
+        For enquiries, feedback and complaint, please feel free to reach out here. If you are interested in receiving Support Coordination or Psychosocial Recovery Coach Supports, you can access our referral form using the Referral button above.
         </p>
       </div>
 
       {/* Contact Form */}
-      <form onSubmit={handleSubmit} className="w-full md:w-2/3 flex flex-col space-y-6">
+      <form onSubmit={handleSubmit} className="w-full md:w-2/3 flex flex-col space-y-2">
         {/* First Name and Last Name */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>

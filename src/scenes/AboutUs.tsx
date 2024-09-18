@@ -23,9 +23,9 @@ const TwoSectionLayout = () => {
         <div className="flex flex-col md:flex-row gap-8">
 
           {/* Left Section - Support Coordination */}
-          <div className="w-full md:w-1/2 ">
-            <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>Support Coordination</h2>
-            <p className="text-lg mb-4">
+          <div className="w-full md:w-1/2 text-justify" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
+            <h2 className="text-3xl font-bold mb-4" >Support Coordination</h2>
+            <p className=" mb-4">
               Support coordination helps you make the most of the supports outlined
               in your NDIS plan. It is a capacity-building service designed to:
             </p>
@@ -34,10 +34,10 @@ const TwoSectionLayout = () => {
               <li>Connect you with NDIS providers, community resources, mainstream services, and other government services</li>
               <li>Develop your confidence and skills to effectively manage and coordinate your supports</li>
             </ul>
-            <p className="text-lg mb-4">
+            <p className=" mb-4">
               Support coordination is provided by either a support coordinator or a specialist support coordinator.
             </p>
-            <p className="text-lg mb-4">
+            <p className=" mb-4">
               There are three levels of support coordination available in your plan:
             </p>
             <ol className="list-decimal pl-5 space-y-4">
@@ -54,9 +54,9 @@ const TwoSectionLayout = () => {
           </div>
 
           {/* Right Section - Psychosocial Recovery Coaching */}
-          <div className="w-full md:w-1/2 ">
-            <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>Psychosocial Recovery Coaching</h2>
-            <p className="text-lg mb-4">
+          <div className="w-full md:w-1/2 text-justify" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
+            <h2 className="text-3xl font-bold mb-4">Psychosocial Recovery Coaching</h2>
+            <p className="mb-4">
               A Recovery Coach is an NDIS-funded professional with expertise in mental health. A recovery coach will:
             </p>
             <ul className="list-disc pl-5 mb-4">
@@ -65,7 +65,7 @@ const TwoSectionLayout = () => {
               <li>Help you access support from mental health services</li>
               <li>Provide guidance on understanding the NDIS and assist you with navigating it</li>
             </ul>
-            <p className="text-lg mb-4">
+            <p className=" mb-4">
               You can choose a recovery coach with lived experience. This type of recovery coach has personal experience with mental health issues and recovery, which they use to enhance their support and guidance.
             </p>
           </div>

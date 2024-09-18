@@ -23,12 +23,28 @@ const Navbar = () => {
     <>
       {!hamburgerMenu ? (
         <nav
-          style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }} className={`fixed top-0 w-screen text-lg flex px-10 py-4 justify-center items-center z-40 shadow-sm text-white  font-semibold bg-primary `}
+          style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }} className={`fixed top-[30px] w-screen text-lg flex px-10 py-2 justify-center items-center z-40 shadow-sm text-white   bg-[#CFE1C9] `}
         >
-          <div className=" flex justify-between w-full max-w-[1400px] py-0 px-0" style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }}>
+          <div className="w-screen h-[30px] bg-primary fixed top-0 flex justify-center text-sm items-center" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }} >
+            <div className="max-w-[1400px] w-full flex justify-between items-center">
+              <div className="flex justify-center items-center gap-1">
+                <img src="/phone.svg" className="max-w-[25px]" />
+                <p className="mr-4">0409 611 780</p>
+
+                <img src="/email.svg" className="max-w-[25px]" />
+                <p>sagecoordination@gmail.com</p>
+              </div>
+
+            </div>
+
+          </div>
+          <div className=" flex justify-between w-full max-w-[1400px] py-0 px-0" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
             <div className="flex flex-row justify-center items-center gap-2">
-              <img src="/sagelogo.png" className="max-w-[50px] rounded-full" />
-              <h1 style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>Sage Coordination</h1>
+              <div className="bg-white p-2 rounded-full">
+                <img src="/sagelogo.png" className="max-w-[50px] rounded-full" />
+              </div>
+
+              <h1 style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>SAGE COORDINATION</h1>
             </div>
 
             <div className="flex justify-center items-center gap-3 
