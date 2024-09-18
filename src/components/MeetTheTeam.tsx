@@ -33,7 +33,7 @@ const MeetTheTeam = () => {
             Ahlam has also volunteered in the early children and youth sector, mentoring youth in high school, and assisting with facilitating programs for families with children requiring early intervention support. Ahlam has a background in Counselling and Social Sciences.
           </p>
           <p className="text-lg text-white mb-4 text-justify">
-            Her dedication to the disability sector comes from her experience as a carer and advocate for family members with mental health conditions and neurodevelopmental conditions. She has seen firsthand how these conditions can severely impact a person's ability to pursue their goals and manage everyday tasks that many take for granted.
+            Her dedication to the disability sector comes from her experience as a carer and advocate for family members with mental health conditions and neurodevelopmental conditions. She has seen firsthand how these conditions can severely impact a person&aposs ability to pursue their goals and manage everyday tasks that many take for granted.
           </p>
           <p className="text-lg text-white text-justify">
             This experience inspired her to pursue a career focused on assisting others in similar situations, helping them address these challenges and overcome barriers so they can continue to live a life they deserve.
