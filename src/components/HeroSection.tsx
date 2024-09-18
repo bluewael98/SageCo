@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <div className=" relative min-h-[500px] flex items-center justify-center clip-bottom bg-[#f2f7f2]" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-[30px]">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 mt-[30px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 text-black">
           <div className="space-y-4">
             <h2 className="text-2xl " style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
