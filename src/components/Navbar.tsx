@@ -40,8 +40,8 @@ const Navbar = () => {
           </div>
           <div className=" flex justify-between w-full max-w-[1400px] py-0 px-0" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
             <div className="flex flex-row justify-center items-center gap-2">
-              <div className="bg-white p-2 rounded-full">
-                <img src="/sagelogo.png" className="max-w-[50px] rounded-full" />
+              <div className="bg-white  rounded-full">
+                <img src="/sagelogo.png" className="max-w-[60px] rounded-full" />
               </div>
 
               <h1 style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>SAGE COORDINATION</h1>

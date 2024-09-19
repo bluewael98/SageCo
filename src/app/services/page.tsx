@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Learn about our values and mission at SageCoordination",
 };
 export default function Page() {
-  return <div className="bg-[#b8bc7f] ">
+  return <div className="bg-[#b4c186] ">
     <AboutUs />
   </div>;
 }

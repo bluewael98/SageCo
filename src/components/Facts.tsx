@@ -4,7 +4,7 @@ import Image from "next/image";
 const Facts = () => {
   return (
     <div className="relative bg-[#b4c186] py-[200px] clip-top" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start justify-between ">
+      <div className="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start justify-between ">
         <img
           src="bg2.jpg"
           className="absolute inset-0 object-cover w-full h-full opacity-5"

@@ -37,18 +37,18 @@ const ContactForm = () => {
     <section className="flex flex-col md:flex-row justify-center items-start w-screen max-w-6xl p-8 bg-primary" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
       {/* Left Section with Static Text */}
       <div className="w-full md:w-1/2 p-4 text-black md:mr-4">
-        <h2 className="text-3xl font-bold mb-4 " style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>ENQUIRIES</h2>
+        <h2 className="text-4xl  mb-4 " style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>ENQUIRIES</h2>
         <p className='text-justify'>
         For enquiries, feedback and complaints, please feel free to reach out here. If you are interested in receiving Support Coordination or Psychosocial Recovery Coach Supports, you can access our referral form using the Referral button above.
         </p>
       </div>
 
       {/* Contact Form */}
-      <form onSubmit={handleSubmit} className="w-full md:w-2/3 flex flex-col space-y-2">
+      <form onSubmit={handleSubmit} className="w-full md:w-2/3 flex flex-col space-y-3">
         {/* First Name and Last Name */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="firstName" className="block text-sm text-black">
+            <label htmlFor="firstName" className="block text-md mb-1 text-black">
               First Name <span className="(required)">(required)</span>
             </label>
             <input
@@ -61,7 +61,7 @@ const ContactForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="lastName" className="block text-sm text-black">
+            <label htmlFor="lastName" className="block text-md mb-1 text-black">
               Last Name <span className="(required)">(required)</span>
             </label>
             <input
@@ -77,7 +77,7 @@ const ContactForm = () => {
 
         {/* Email */}
         <div>
-          <label htmlFor="email" className="block text-sm text-black">
+          <label htmlFor="email" className="block text-md mb-1 text-black">
             Email <span className="(required)">*</span>
           </label>
           <input
@@ -93,7 +93,7 @@ const ContactForm = () => {
 
         {/* Subject */}
         <div>
-          <label htmlFor="subject" className="block text-sm text-black">
+          <label htmlFor="subject" className="block text-md mb-1 text-black">
             Subject <span className="(required)">(required)</span>
           </label>
           <input
@@ -108,7 +108,7 @@ const ContactForm = () => {
 
         {/* Message */}
         <div>
-          <label htmlFor="message" className="block text-sm text-black">
+          <label htmlFor="message" className="block text-md mb-1 text-black">
             Message <span className="(required)">(required)</span>
           </label>
           <textarea
@@ -124,7 +124,7 @@ const ContactForm = () => {
 
       
         <div>
-          <label htmlFor="enquiryType" className="block text-sm text-black">
+          <label htmlFor="enquiryType" className="block text-md mb-1 text-black">
             Enquiry Type <span className="text-black">(required)</span>
           </label>
           <select

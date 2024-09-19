@@ -2,8 +2,8 @@ import React from "react";
 
 const TwoSectionLayout = () => {
   return (
-    <section className="w-screen bg-[#b8bc7f] " style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }}>
-      <div className="w-full bg-[#b8bc7f] relative flex justify-center items-center h-[150px] md:h-[220px] overflow-hidden z-10 mt-20">
+    <section className="w-screen bg-[#b4c186] " style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }}>
+      <div className="w-full bg-[#b4c186] relative flex justify-center items-center h-[150px] md:h-[220px] overflow-hidden z-10 mt-20">
         <div className="flex flex-col justify-center">
           <h1 className="text-white  text-2xl md:text-[45px] text-center" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>SUPPORT COORDINATION & PSYCHOSOCIAL RECOVERY COACHING</h1>
 
@@ -11,7 +11,7 @@ const TwoSectionLayout = () => {
       </div>
       {/* Responsive Banner */}
       <img src="/ob.JPG" className="w-screen" />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-black bg-[#b8bc7f] " >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-black bg-[#b4c186]" >
 
 
 
