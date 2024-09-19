@@ -5,7 +5,7 @@ const TwoSectionLayout = () => {
     <section className="w-screen bg-[#b8bc7f] " style={{ fontFamily: 'Minerva Modern Bold, sans-serif' }}>
       <div className="w-full bg-[#b8bc7f] relative flex justify-center items-center h-[150px] md:h-[220px] overflow-hidden z-10 mt-20">
         <div className="flex flex-col justify-center">
-          <h1 className="text-white  text-2xl md:text-[45px] text-center" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>Support Coordination & Psychosocial Recovery Coaching</h1>
+          <h1 className="text-white  text-2xl md:text-[45px] text-center" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>SUPPORT COORDINATION & PSYCHOSOCIAL RECOVERY COACHING</h1>
 
         </div>
       </div>

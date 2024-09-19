@@ -39,7 +39,7 @@ const ContactForm = () => {
       <div className="w-full md:w-1/2 p-4 text-black md:mr-4">
         <h2 className="text-3xl font-bold mb-4 " style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>ENQUIRIES</h2>
         <p className='text-justify'>
-        For enquiries, feedback and complaint, please feel free to reach out here. If you are interested in receiving Support Coordination or Psychosocial Recovery Coach Supports, you can access our referral form using the Referral button above.
+        For enquiries, feedback and complaints, please feel free to reach out here. If you are interested in receiving Support Coordination or Psychosocial Recovery Coach Supports, you can access our referral form using the Referral button above.
         </p>
       </div>
 
