@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <section className="relative w-screen bg-secondary font-Oswald ">
+    <section className="relative w-screen bg-[#b4c186]  font-Oswald ">
       <Head>
         <title>SageCoordination - Home</title>
         <meta
@@ -22,7 +22,7 @@ const Home = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="bg2.jpg"
-          className="object-fit h-full w-full opacity-10 "
+          className="object-fit h-full w-full opacity-5 "
           alt="Background"
         />
       </div>

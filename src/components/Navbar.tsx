@@ -23,9 +23,9 @@ const Navbar = () => {
     <>
       {!hamburgerMenu ? (
         <nav
-          style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }} className={`fixed top-[30px] w-screen text-lg flex px-10 py-2 justify-center items-center z-40 shadow-sm text-white   bg-[#CFE1C9] `}
+          style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }} className={`fixed top-[30px] px-20 w-screen text-lg flex py-2 justify-center items-center z-40 shadow-sm text-primary   bg-[#ffffff] `}
         >
-          <div className="w-screen h-[30px] bg-primary fixed top-0 flex justify-center text-sm items-center" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }} >
+          <div className="w-screen h-[30px] bg-primary fixed top-0 flex justify-center text-sm items-center text-white" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }} >
             <div className="max-w-[1400px] w-full flex justify-between items-center">
               <div className="flex justify-center items-center gap-1">
                 <img src="/phone.svg" className="max-w-[25px]" />
@@ -48,38 +48,38 @@ const Navbar = () => {
             </div>
 
             <div className="flex justify-center items-center gap-3 
-             text-[16px] font-bold ">
+             text-[19px]  ">
               <div className=" rounded-md py-2 px-4 transition duration-300 flex justify-center items-center gap-10">
                 <Link
                   href="/"
-                  className="group text-white transition-all duration-300 ease-in-out"
+                  className="group text-primary transition-all duration-300 ease-in-out"
                 >
-                  <h2 className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
+                  <h2 className="bg-left-bottom bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
                     Home
                   </h2>
                 </Link>
                 <Link
                   href="/services"
-                  className="group text-white transition-all duration-300 ease-in-out"
+                  className="group text-primary transition-all duration-300 ease-in-out"
                 >
-                  <h2 className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
+                  <h2 className="bg-left-bottom bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
                     Services
                   </h2>
                 </Link>
 
                 <Link
                   href="/contact"
-                  className="group text-white transition-all duration-300 ease-in-out"
+                  className="group text-primary transition-all duration-300 ease-in-out"
                 >
-                  <h2 className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
+                  <h2 className="bg-left-bottom bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
                     Contact
                   </h2>
                 </Link>
                 <Link
                   href="/referral"
-                  className="group text-white transition-all duration-300 ease-in-out"
+                  className="group text-primary transition-all duration-300 ease-in-out"
                 >
-                  <h2 className="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
+                  <h2 className="bg-left-bottom bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] group-hover:opacity-80 transition-all duration-500 ease-out">
                     Referral
                   </h2>
                 </Link>
