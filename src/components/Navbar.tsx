@@ -127,7 +127,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                      href="/about"
+                      href="/services"
                       className=" border-b-[1px] w-full text-start flex justify-between items-center "
                       onClick={() => setIsMenuToggled(!isMenuToggled)}
                     >
@@ -135,11 +135,19 @@ const Navbar = () => {
                       <ArrowForwardIosRounded className="text-white" />
                     </Link>
                     <Link
-                      href="/about"
+                      href="/contact"
                       className=" border-b-[1px] w-full text-start flex justify-between items-center "
                       onClick={() => setIsMenuToggled(!isMenuToggled)}
                     >
                       <p className="text-[20px] text-white">Contact</p>
+                      <ArrowForwardIosRounded className="text-white" />
+                    </Link>
+                    <Link
+                      href="/referral"
+                      className=" border-b-[1px] w-full text-start flex justify-between items-center "
+                      onClick={() => setIsMenuToggled(!isMenuToggled)}
+                    >
+                      <p className="text-[20px] text-white">Referral</p>
                       <ArrowForwardIosRounded className="text-white" />
                     </Link>
 

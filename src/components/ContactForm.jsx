@@ -1,4 +1,4 @@
-"use-client"
+"use client";
 import React, { useState } from 'react';
 
 const ContactForm = () => {
@@ -12,7 +12,7 @@ const ContactForm = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [message, setMessage] = useState('');
+  const [responseMessage, setResponseMessage] = useState('');
 
   const handleInputChange = (e) => {
     const { id, value } = e.target;
@@ -24,22 +24,37 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Form submission logic (this will be updated with your actual API or processing method)
-      setMessage('Form submitted successfully!');
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await res.json();
+
+      if (res.ok) {
+        setResponseMessage(result.message || 'Form submitted successfully!');
+      } else {
+        setResponseMessage(result.error || 'There was an error submitting the form.');
+      }
     } catch (error) {
-      setMessage('There was an error submitting the form.');
+      setResponseMessage('There was an error submitting the form.');
     } finally {
       setIsSubmitting(false);
     }
   };
 
   return (
-    <section className="flex flex-col md:flex-row justify-center items-start w-screen max-w-6xl p-8 bg-primary" style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>
+    <section className="flex flex-col md:flex-row justify-center items-start w-screen max-w-6xl p-8 bg-primary">
       {/* Left Section with Static Text */}
       <div className="w-full md:w-1/2 p-4 text-black md:mr-4">
-        <h2 className="text-4xl  mb-4 " style={{ fontFamily: 'Minerva Modern Italic, sans-serif' }}>ENQUIRIES</h2>
+        <h2 className="text-4xl mb-4">ENQUIRIES</h2>
         <p className='text-justify'>
-        For enquiries, feedback and complaints, please feel free to reach out here. If you are interested in receiving Support Coordination or Psychosocial Recovery Coach Supports, you can access our referral form using the Referral button above.
+          For enquiries, feedback, and complaints, please feel free to reach out here. 
+          If you are interested in receiving Support Coordination or Psychosocial Recovery 
+          Coach Supports, you can access our referral form using the Referral button above.
         </p>
       </div>
 
@@ -122,7 +137,7 @@ const ContactForm = () => {
           />
         </div>
 
-      
+        {/* Enquiry Type */}
         <div>
           <label htmlFor="enquiryType" className="block text-md mb-1 text-black">
             Enquiry Type <span className="text-black">(required)</span>
@@ -151,7 +166,7 @@ const ContactForm = () => {
         </button>
 
         {/* Message */}
-        {message && <p className="text-black text-center mt-4">{message}</p>}
+        {responseMessage && <p className="text-black text-center mt-4">{responseMessage}</p>}
       </form>
     </section>
   );
